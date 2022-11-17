@@ -1,0 +1,92 @@
+section {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.footer-head {
+    background-color: rgb(50, 49, 49);
+}
+
+.display-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 6rem 10rem;
+    margin-top: 5rem;
+}
+
+input.bg-gray {
+    display: block;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(129, 126, 126);
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    border: 1px solid  rgb(129, 126, 126);
+    width: 150%;
+    outline: none;
+}
+ input.bg-gray:focus{
+    border: 1px solid  orangered;
+}
+
+input::placeholder {
+    text-align:start;
+    color: white;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+input[type=submit] {
+    color: white;
+    font-size: 1rem;
+   border-style: none;
+    background-color: orangered;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    width: 50%;
+}
+input[type=submit]:hover{
+    color: white;
+   background-color: rgb(217, 58, 0);
+}
+hr.rotate{
+    border: none; 
+   border-bottom:2px soli rgb(159, 157, 157);
+   transform: rotate(90deg);
+}
+li.list{
+    color: rgb(129, 126, 126); 
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-top: 0.5;
+    padding-bottom: 0.5;
+    margin-top: 0.9rem;
+}
+
+.footer-bottom {
+    font-weight: bold;
+    background-color: rgb(33, 31, 31);
+    padding: 1.8rem 8rem;
+}
+ul#list-row{
+    text-align: center;
+}
+#list-row li,li a {
+   display: inline;
+   list-style-type: none;
+   color:rgb(129, 126, 126);
+   padding-right: 1.5rem;
+   text-decoration: none;
+}
+a:hover{
+    color: orangered;
+}
+div.footer-bottom p{
+    text-align: center;
+    color:rgb(129, 126, 126);
+    font-size: small;
+    font-weight: lighter;
+}
